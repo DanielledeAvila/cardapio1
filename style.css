@@ -1,0 +1,131 @@
+
+#style.css
+
+body,html{
+    background: linear-gradient(#3a033a, #d9e78a);
+    margin: auto;
+    font-family: cursive;
+    }
+
+    .cabecalho{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+
+    .cabecalho-menu{
+        display: flex;
+        gap: 10px;
+    }
+    .conteudo-secao{
+    border-top: 0.4px solid #f6fa03;
+    margin-bottom: 48px;
+
+}
+
+
+
+h1{
+font-family: cursive;
+color: white;
+font-size: 500%;
+margin: auto;
+text-align: center
+}
+
+h2{
+    font-family: cursive;
+    color: white;
+    margin: auto;
+    text-align: left
+    
+}
+blockquote{
+    font-family: cursive;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+
+figure{
+    color: rgb(229, 245, 11);
+}
+
+ 
+.escolha-do-tamanho{
+    margin-right: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+table{    
+    color: white;
+    background-color: rgb(236, 8, 187);
+    border-color: rgb(222, 247, 5);
+      }
+
+.imagem-tres-tamanhos{
+    justify-content: space-around;
+    display: flex;
+    flex-direction:row 
+}
+
+
+.complementos-titulo{
+    text-align: center;
+    color: #f6fa03;
+
+}
+.complementos{
+    text-align: center;
+    display: block;
+    justify-content: space-between;
+    flex-direction:column;
+    
+  }
+
+.a-cobertura{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.coberturas{
+    margin-top: 50px;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    
+}
+
+    
+    form{
+        color: yellow;
+    }
+    input{
+        background-color: white;
+    }
+    button{
+        color: purple;
+        background-color: rgb(221, 236, 5);
+        border-bottom: 2px;
+        border-radius: 20px;
+    }
+    
+    .rodape{
+               border-top: 1px solid #db09ca;
+    }
+
+    footer{
+        font-family: cursive;
+        color: rgb(116, 11, 75);
+        
+    }
+   
+   
